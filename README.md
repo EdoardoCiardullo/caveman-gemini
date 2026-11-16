@@ -13,9 +13,15 @@ Inspired by the [caveman skill for Claude](https://github.com/JuliusBrussee/cave
 
 ## Install
 
-1. Download `SKILL.md` from this repo.
-2. Put it in your Gemini skills location: `<TODO: path or install command for Gemini Hydrogen>`.
-3. Restart or reload Gemini if required.
+**Option A: paste into the Gemini skill editor**
+
+1. Create a new skill in Gemini and name it `caveman`.
+2. Description field: paste the text of the `description` line from `SKILL.md` (only the text, without the `description:` label and without the quotes).
+3. Instructions field: paste everything in `SKILL.md` from `# Caveman` to the end.
+
+**Option B: use the file as is**
+
+If your tool reads `SKILL.md` files directly, copy the whole file into your skills folder.
 
 ## Usage
 
